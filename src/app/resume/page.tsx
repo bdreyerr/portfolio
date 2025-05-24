@@ -64,9 +64,9 @@ export default function Resume() {
                             <p className="text-gray-600">Oct 2021 - Present</p>
                         </div>
                         <p className="mb-2">
-                            Software Engineer under AdWords App Campaigns, building backend features on top of the C++ powered ad serving infrastructure,
-                            for ad targeting, personalization and using app event data to accurately pair users with relevant advertisements for apps.
-                            Our team builds new features for app advertising.
+                            Software Engineer on the AdWords App Campaigns team, developing backend systems that power Google's mobile app advertising infrastructure.
+                            Working with C++ and distributed systems to build sophisticated ad targeting and personalization features that leverage app event data
+                            to deliver relevant app advertisements to users.
                         </p>
 
                         <h5 className="font-bold mt-4 mb-2">Projects @ Google</h5>

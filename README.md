@@ -1,36 +1,200 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Ben Dreyer's Portfolio
 
-## Getting Started
+A modern, responsive portfolio website for Ben Dreyer, Software Engineer at Google. Built with Next.js 15, TypeScript, and Tailwind CSS.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Modern Design**: Clean, responsive interface with dark/light theme support
+- **Project Showcase**: Interactive code viewer with syntax highlighting
+- **Resume Section**: Professional experience and skills
+- **Book Reviews**: Reading lists and book reviews
+- **Social Links**: LinkedIn, GitHub, X (Twitter), and Apple App Store
+- **Interactive Components**: Custom video player and code viewer
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 15 with App Router
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS 4
+- **Icons**: Custom SVG icons
+- **Fonts**: Geist Sans & Geist Mono (Google Fonts)
+- **Code Highlighting**: React Syntax Highlighter
+
+## 📁 Project Structure
+
+```
+src/
+├── app/                    # Next.js App Router pages
+│   ├── page.tsx           # Landing page
+│   ├── layout.tsx         # Root layout
+│   ├── globals.css        # Global styles
+│   ├── resume/            # Resume section
+│   ├── code/              # Project showcases
+│   │   ├── lectura/       # Reading app project
+│   │   ├── daily-short/   # Daily Short project
+│   │   ├── dreamrs/       # Dreamrs project
+│   │   └── radiant/       # Radiant project
+│   └── books/             # Book reviews & reading lists
+│       ├── reading-list/
+│       └── reviews/
+├── components/            # Reusable components
+│   ├── CodeViewer.tsx    # Interactive code viewer
+│   └── VideoPlayer.tsx   # Custom video player
+└── data/                 # Project data files
+    ├── lectura.ts        # Lectura project data
+    ├── dailyShort.ts     # Daily Short project data
+    ├── dreamrs.ts        # Dreamrs project data
+    ├── radiant.ts        # Radiant project data
+    ├── sampleProjectData.ts
+    └── projectVideos.ts
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎨 Design Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Responsive Layout**: Optimized for desktop and mobile
+- **Typography**: Geist font family for modern aesthetics
+- **Color Scheme**: Dark/light mode support
+- **Hover Effects**: Smooth transitions on interactive elements
+- **Accessibility**: ARIA labels and semantic HTML
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📱 Sections
 
-## Learn More
+### Landing Page
+- Professional introduction
+- Social media links (LinkedIn, GitHub, X, Apple App Store)
+- Navigation to main sections
 
-To learn more about Next.js, take a look at the following resources:
+### Resume
+- Professional experience
+- Skills and technologies
+- Contact information
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Code Projects
+Four featured projects with detailed showcases:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. **Lectura** - Reading/book application
+2. **Daily Short** - Daily content application
+3. **Dreamrs** - Dream-related application
+4. **Radiant** - Utility/productivity application
 
-## Deploy on Vercel
+Each project includes:
+- Interactive code viewer with syntax highlighting
+- Project descriptions and features
+- Technology stack information
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Books
+- Reading lists
+- Book reviews
+- Reading recommendations
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js 18+ and npm
+- Git
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone [repository-url]
+cd ben-portfolio
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Run the development server:
+```bash
+npm run dev
+```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
+
+### Available Scripts
+
+- `npm run dev` - Start development server with Turbopack
+- `npm run build` - Build production version
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint
+
+## 🔧 Development
+
+### Adding New Projects
+
+1. Create project data file in `src/data/`:
+```typescript
+export const projectName = {
+  // Project data structure
+};
+```
+
+2. Add route in `src/app/code/project-name/`
+3. Update navigation in `src/app/code/page.tsx`
+
+### Customizing Components
+
+The portfolio uses two main custom components:
+
+- **CodeViewer**: Interactive code display with syntax highlighting
+- **VideoPlayer**: Custom video player for project demonstrations
+
+## 📦 Dependencies
+
+### Core Dependencies
+- `next`: Next.js framework
+- `react` & `react-dom`: React library
+- `typescript`: TypeScript support
+- `tailwindcss`: Utility-first CSS framework
+- `react-syntax-highlighter`: Code syntax highlighting
+
+### Development Dependencies
+- `@types/*`: TypeScript type definitions
+- `@tailwindcss/*`: Tailwind CSS plugins
+- Various character encoding utilities
+
+## 🌐 Deployment
+
+### Vercel (Recommended)
+The easiest deployment option:
+
+1. Connect your GitHub repository to Vercel
+2. Configure build settings (auto-detected)
+3. Deploy with automatic CI/CD
+
+### Manual Deployment
+```bash
+npm run build
+npm run start
+```
+
+## 🔒 Environment Variables
+
+No environment variables are required for basic functionality.
+
+## 📄 License
+
+This portfolio is private and proprietary.
+
+## 👤 Author
+
+**Ben Dreyer**
+- Software Engineer @ Google
+- Location: San Francisco, CA
+- LinkedIn: [ben-dreyer-3b9063159](https://www.linkedin.com/in/ben-dreyer-3b9063159/)
+- GitHub: [bdreyerr](https://github.com/bdreyerr)
+- X: [bendreyerr](https://x.com/bendreyerr)
+- Apple App Store: [Developer Profile](https://apps.apple.com/us/developer/benjamin-dreyer/id1705589007)
+
+## 🤝 Contributing
+
+This is a personal portfolio. For suggestions or bug reports, please reach out directly.
+
+## 📋 Notes
+
+- The portfolio showcases real projects and professional experience
+- All code examples and project data are included for demonstration
+- The design emphasizes clean, professional presentation
+- Mobile-responsive design ensures accessibility across devices

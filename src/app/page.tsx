@@ -7,7 +7,7 @@ export default function Home() {
       <main>
         <h1 className="text-3xl sm:text-4xl font-bold">Ben Dreyer</h1>
         <p className="mt-2 text-gray-600 dark:text-gray-400">
-          Software Engineer @ Google - San Francisco, CA
+          Software Engineer @ <span><span style={{color: '#4285F4'}}>G</span><span style={{color: '#EA4335'}}>o</span><span style={{color: '#FBBC04'}}>o</span><span style={{color: '#4285F4'}}>g</span><span style={{color: '#34A853'}}>l</span><span style={{color: '#EA4335'}}>e</span></span> - San Francisco, CA
         </p>
 
         <div className="flex gap-6 mt-6">
@@ -51,6 +51,12 @@ export default function Home() {
             className="px-6 py-3 bg-gray-800 text-white dark:bg-gray-700 rounded-lg font-medium hover:bg-gray-700 dark:hover:bg-gray-600 transition-colors text-center"
           >
             Books
+          </Link>
+          <Link
+            href="/sports"
+            className="px-6 py-3 bg-gray-800 text-white dark:bg-gray-700 rounded-lg font-medium hover:bg-gray-700 dark:hover:bg-gray-600 transition-colors text-center"
+          >
+            Sports
           </Link>
         </div>
       </main>

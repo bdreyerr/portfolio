@@ -52,12 +52,6 @@ export default function Home() {
           >
             Books
           </Link>
-          <Link
-            href="/sports"
-            className="px-6 py-3 bg-gray-800 text-white dark:bg-gray-700 rounded-lg font-medium hover:bg-gray-700 dark:hover:bg-gray-600 transition-colors text-center"
-          >
-            Sports
-          </Link>
         </div>
       </main>
     </div>

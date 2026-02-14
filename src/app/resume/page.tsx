@@ -58,18 +58,18 @@ export default function Resume() {
                     <div className="mb-6">
                         <div className="flex flex-col md:flex-row justify-between mb-2">
                             <div>
-                                <h4 className="font-bold">Google</h4>
+                                <h4 className="font-bold"><span><span style={{color: '#4285F4'}}>G</span><span style={{color: '#EA4335'}}>o</span><span style={{color: '#FBBC04'}}>o</span><span style={{color: '#4285F4'}}>g</span><span style={{color: '#34A853'}}>l</span><span style={{color: '#EA4335'}}>e</span></span></h4>
                                 <p className="italic">Software Engineer - App Ads (Backend) - Mountain View, CA</p>
                             </div>
                             <p className="text-gray-600">Oct 2021 - Present</p>
                         </div>
                         <p className="mb-2">
-                            Software Engineer on the AdWords App Campaigns team, developing backend systems that power Google's mobile app advertising infrastructure.
+                            Software Engineer on the AdWords App Campaigns team, developing backend systems that power <span><span style={{color: '#4285F4'}}>G</span><span style={{color: '#EA4335'}}>o</span><span style={{color: '#FBBC04'}}>o</span><span style={{color: '#4285F4'}}>g</span><span style={{color: '#34A853'}}>l</span><span style={{color: '#EA4335'}}>e</span></span>'s mobile app advertising infrastructure.
                             Working with C++ and distributed systems to build sophisticated ad targeting and personalization features that leverage app event data
                             to deliver relevant app advertisements to users.
                         </p>
 
-                        <h5 className="font-bold mt-4 mb-2">Projects @ Google</h5>
+                        <h5 className="font-bold mt-4 mb-2">Projects @ <span><span style={{color: '#4285F4'}}>G</span><span style={{color: '#EA4335'}}>o</span><span style={{color: '#FBBC04'}}>o</span><span style={{color: '#4285F4'}}>g</span><span style={{color: '#34A853'}}>l</span><span style={{color: '#EA4335'}}>e</span></span></h5>
 
                         <div className="mb-4">
                             <h6 className="font-bold">Beyond the Install</h6>
@@ -83,7 +83,7 @@ export default function Resume() {
                         <div className="mb-4">
                             <h6 className="font-bold">Project Melee</h6>
                             <p>
-                                Project Melee is an effort to allow PC and Console gaming advertisers to promote their games on the Google app ads network.
+                                Project Melee is an effort to allow PC and Console gaming advertisers to promote their games on the <span><span style={{color: '#4285F4'}}>G</span><span style={{color: '#EA4335'}}>o</span><span style={{color: '#FBBC04'}}>o</span><span style={{color: '#4285F4'}}>g</span><span style={{color: '#34A853'}}>l</span><span style={{color: '#EA4335'}}>e</span></span> app ads network.
                                 Normally, these advertisers would create Search (web) campaigns to promote their game. Melee creates a fake app for the promoted game,
                                 unlocking the entire mobile app ad network for otherwise unreached engagement opportunity. Melee is in alpha and has been adopted by customers
                                 such as Riot Games, EA, Tencent and more. Melee earns around $15M ARR in early alpha.
@@ -94,9 +94,9 @@ export default function Resume() {
                             <h6 className="font-bold">SCG P13n</h6>
                             <p>
                                 Historically, the app ads personalization (p13n) system has been reserved for safe, non-sensitive apps. However,
-                                with improvements to Google's app classification and certificate process, Social Casino Game apps have been approved for p13n.
+                                with improvements to <span><span style={{color: '#4285F4'}}>G</span><span style={{color: '#EA4335'}}>o</span><span style={{color: '#FBBC04'}}>o</span><span style={{color: '#4285F4'}}>g</span><span style={{color: '#34A853'}}>l</span><span style={{color: '#EA4335'}}>e</span></span>'s app classification and certificate process, Social Casino Game apps have been approved for p13n.
                                 Including these apps required a significant change to the app event collection infrastructure and its policy filtering.
-                                Enablement of p13n on the ~3k SCG apps has earned approximately $100M ARR for Google App Ads.
+                                Enablement of p13n on the ~3k SCG apps has earned approximately $100M ARR for <span><span style={{color: '#4285F4'}}>G</span><span style={{color: '#EA4335'}}>o</span><span style={{color: '#FBBC04'}}>o</span><span style={{color: '#4285F4'}}>g</span><span style={{color: '#34A853'}}>l</span><span style={{color: '#EA4335'}}>e</span></span> App Ads.
                             </p>
                         </div>
                     </div>
